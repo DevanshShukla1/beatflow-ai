@@ -63,15 +63,4 @@ npm run dev
 
 ## Workflow Diagram
 
-```mermaid
-flowchart LR
-    A[User UI] -->|Select genre, prompt, duration| B[Next.js Frontend]
-    B -->|Axios POST /api/generate| C[Flask Router]
-    C -->|Validate & build job| D[MusicGenService]
-    D -->|Prompt-to-audio inference| E[(MusicGen Model)]
-    E -->|WAV + metadata| F[Storage + Librosa BPM]
-    F -->|JSON response {audioPath,bpm}| B
-    B -->|Pass URL to Tone.js| G[MixerPanel]
-    G -->|Loop playback / filters| A
-    B -->|Localized strings| H[Lingo.dev Locales]
-```
+<img width="3125" height="2735" alt="workflow" src="https://github.com/user-attachments/assets/4dda921b-95b8-4cbb-928c-9805a62442e4" />
