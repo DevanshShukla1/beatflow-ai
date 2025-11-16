@@ -1,0 +1,87 @@
+{
+  "app": {
+    "tagline": "BeatFlow AI",
+    "title": "Blend AI melodies with authentic loops",
+    "subtitle": "Generate culturally grounded hooks (15-60s) for Reels & Shorts and remix them in the browser."
+  },
+  "genres": {
+    "sectionTitle": "Genres",
+    "bollywood": {
+      "title": "Bollywood",
+      "mood": "Vibrant hooks"
+    },
+    "afrobeat": {
+      "title": "Afrobeat",
+      "mood": "Groovy polyrhythms"
+    },
+    "kpop": {
+      "title": "K-pop",
+      "mood": "Glossy synths"
+    },
+    "global": {
+      "title": "Global Blend",
+      "mood": "Experimental"
+    }
+  },
+  "prompt": {
+    "sectionTitle": "Prompt & Duration",
+    "textareaLabel": "Describe the vibe",
+    "durationLabel": "Duration",
+    "suggestionsTitle": "Prompt inspirations",
+    "durationHelper": "Seconds",
+    "suggestions": {
+      "bollywood": [
+        "Energetic Bollywood hook with bansuri flute, dholak groove, 100 BPM",
+        "Romantic Bollywood strings with tabla and airy synth pads"
+      ],
+      "afrobeat": [
+        "Afrobeat guitar plucks with shekere percussion and deep bass",
+        "Mid-tempo Afrobeat groove with brass stabs and vocal chops"
+      ],
+      "kpop": [
+        "Sparkling K-pop synth lead with punchy kick and claps",
+        "Dreamy K-pop pad progression with trap hi-hats"
+      ],
+      "global": [
+        "Global fusion of gamelan bells and house drums at 122 BPM",
+        "Organic house beat with sitar motifs and sub bass"
+      ]
+    }
+  },
+  "actions": {
+    "generate": "Generate clip",
+    "generating": "Generating..."
+  },
+  "metadata": {
+    "title": "Clip details",
+    "bpm": "BPM",
+    "duration": "Duration"
+  },
+  "mixer": {
+    "title": "Mixer",
+    "volume": "Volume (dB)",
+    "filter": "Low-pass Filter (Hz)",
+    "placeholder": "Generate audio to enable mixer."
+  },
+  "languageToggle": {
+    "label": "Language"
+  },
+  "translation": {
+    "title": "Prompt translation",
+    "original": "Original",
+    "translated": "Translated",
+    "note": "Auto-translated from {source} to {target} via Lingo.",
+    "error": "Translation unavailable, using original prompt."
+  },
+  "translationTester": {
+    "title": "Test Lingo translation",
+    "subtitle": "Send a sample sentence to Lingo before you generate music.",
+    "placeholder": "Type any phrase or prompt to translate...",
+    "action": "Translate with Lingo",
+    "loading": "Translating...",
+    "resultLabel": "Translated text",
+    "statusApplied": "Converted from {source} to {target}.",
+    "statusBypassed": "No translation needed (already {target}).",
+    "errorMissing": "Enter some text to translate first."
+  }
+}

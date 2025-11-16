@@ -1,0 +1,13 @@
+{
+  "project": "beatflow-ai",
+  "src": ["src"],
+  "framework": "next",
+  "defaultLocale": "en",
+  "locales": ["en", "hi"],
+  "localesDir": "locales",
+  "resources": [],
+  "languageFiles": [
+    { "code": "en", "path": "locales/en.json" },
+    { "code": "hi", "path": "locales/hi.json" }
+  ]
+}
