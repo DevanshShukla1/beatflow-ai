@@ -63,4 +63,4 @@ npm run dev
 
 ## Workflow Diagram
 
-<img width="3125" height="2735" alt="workflow" src="https://github.com/user-attachments/assets/4dda921b-95b8-4cbb-928c-9805a62442e4" />
+<img width="1603" height="2765" alt="workflow-2025-11-16-111935" src="https://github.com/user-attachments/assets/b2e04cc8-4df8-45dc-9588-c6eb3309e96b" />
